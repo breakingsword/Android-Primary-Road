@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/btn_relative"
+
+        android:text="1" />
+
+    <TextView
+        style="@style/btn_relative"
+
+        android:text="2" />
+
+    <TextView
+        android:id="@+id/txt_center"
+        style="@style/btn_relative"
+
+        android:layout_centerInParent="true"
+
+        android:text="3" />
+
+    <TextView
+        style="@style/btn_relative"
+
+        android:layout_alignParentBottom="true"
+
+        android:text="4" />
+
+    <TextView
+        style="@style/btn_relative"
+
+        android:layout_below="@id/txt_center"
+        android:background="#d0d9ff"
+
+        android:text="5" />
+
+    <TextView
+        style="@style/btn_relative"
+
+        android:layout_alignBottom="@+id/txt_center"
+
+        android:text="6" />
+
+    <TextView
+        style="@style/btn_relative"
+
+        android:layout_marginLeft="150dp"
+
+        android:text="7" />
+
+    <TextView
+        style="@style/btn_relative"
+
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="100dp"
+        android:layout_toRightOf="@id/txt_center"
+
+        android:text="8" />
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MySecondView">
+        <attr name="leftText" format="string"/>
+        <attr name="leftTextSize" format="dimension"/>
+        <attr name="leftTextColor" format="color"/>
+        <attr name="leftBackground" format="reference|color"/>
+
+        <attr name="rightText" format="string"/>
+        <attr name="rightTextSize" format="dimension"/>
+        <attr name="rightTextColor" format="color"/>
+        <attr name="rightBackground" format="reference|color"/>
+        
+    </declare-styleable>
+</resources>

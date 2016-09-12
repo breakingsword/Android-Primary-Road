@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        style="@style/btn_relative"
+
+        android:text="1" />
+
+    <TextView
+        style="@style/btn_relative"
+        android:layout_x="60dp"
+        android:layout_y="60dp"
+        android:text="1" />
+
+    <TextView
+        style="@style/btn_relative"
+        android:layout_x="160dp"
+        android:layout_y="160dp"
+        android:text="1" />
+
+    <TextView
+        style="@style/btn_relative"
+        android:layout_x="260dp"
+        android:layout_y="260dp"
+        android:text="1" />
+</AbsoluteLayout>

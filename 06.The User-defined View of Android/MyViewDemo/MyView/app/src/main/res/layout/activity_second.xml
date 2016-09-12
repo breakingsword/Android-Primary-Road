@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:two="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.example.myview.MyView.MySecondView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        two:leftText="这是左边"
+        two:leftTextColor="#0288D1"
+        two:leftTextSize="20sp"
+        two:rightText="这是右边"
+        two:rightTextColor="#FF5722"
+        two:rightTextSize="20sp"/>
+</LinearLayout>

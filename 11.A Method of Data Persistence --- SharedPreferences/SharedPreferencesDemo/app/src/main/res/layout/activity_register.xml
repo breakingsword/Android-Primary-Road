@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ededed"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/title_bar"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/back"
+            android:layout_width="54px"
+            android:layout_height="54px"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="12dp"
+            android:background="#00000000"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/register"
+            android:textColor="#ffffff"
+            android:textSize="22sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="90dp"
+            android:background="@drawable/linear_border"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/username_u"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginLeft="12dp"
+                android:background="@null"
+                android:hint="@string/phone"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#ededed"></View>
+
+            <EditText
+                android:id="@+id/password_p"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginLeft="12dp"
+                android:background="@null"
+                android:inputType="textPassword"
+                android:hint="输入8位密码"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/next_btn"
+            android:layout_width="340dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/bg_border_login"
+            android:text="@string/next_step"
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+    </LinearLayout>
+</LinearLayout>
+

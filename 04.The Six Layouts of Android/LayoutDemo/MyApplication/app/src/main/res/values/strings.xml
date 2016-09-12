@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Layoutdemo</string>
+    <string name="Linear">LinearLayout</string>
+    <string name="Realtive">RealtiveLayout</string>
+    <string name="My">MyLayout</string>
+    <string name="Absolute">AbsoluteLayout</string>
+    <string name="Table">TableLayout</string>
+    <string name="Frame">FrameLayout</string>
+
+</resources>

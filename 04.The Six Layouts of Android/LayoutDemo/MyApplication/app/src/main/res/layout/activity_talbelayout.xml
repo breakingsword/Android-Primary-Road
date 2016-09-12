@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:collapseColumns="2"
+    android:shrinkColumns="1"
+    android:stretchColumns="0">
+
+    <TableRow
+       >
+        <TextView android:text="我是伸展的第一列" />
+
+        <TextView android:text="我是收缩的第二列" />
+
+        <TextView android:text="我被隐藏了" />
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="我可以伸展的很长很长很长长" />
+
+        <TextView android:text="我可以收缩，我可以变的很深很深很深" />
+
+        <TextView android:text="我被隐藏了T_T" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="我要在第2列" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_span="2"
+            android:text="我要                    跨                     两                   列" />
+    </TableRow>
+</TableLayout>
